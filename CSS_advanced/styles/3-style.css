@@ -1,0 +1,42 @@
+/* Task 3: CSS Variables */
+/* Based on styles/2-style.css */
+
+/* Import previous styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Define custom properties (variables) on root element */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+/* Body styling */
+body {
+  color: var(--text-color);
+}
+
+/* Anchor styling */
+a {
+  color: var(--text-color);
+}
+
+/* Visually hidden */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category - use color-primary variable */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Section tagline - use color-primary variable */
+.section-tagline {
+  color: var(--color-primary);
+}
