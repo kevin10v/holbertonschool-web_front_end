@@ -46,24 +46,24 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* UPDATED: Target only links with href attribute */
-a[href] {
+/* Target only links with :link pseudo-class */
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* NEW: Visited state */
-a[href]:visited {
+/* Visited state - italicize */
+a:visited {
   font-style: italic;
 }
 
-/* NEW: Hover state */
-a[href]:hover {
+/* Hover state - underline */
+a:hover {
   text-decoration: underline;
 }
 
-/* NEW: Active state */
-a[href]:active {
+/* Active state - grey background */
+a:active {
   background-color: var(--color-light-grey);
 }
 
