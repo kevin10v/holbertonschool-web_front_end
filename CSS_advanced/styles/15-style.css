@@ -1,15 +1,20 @@
 /* Task 15: Add universal box-sizing */
 /* Based on styles/14-style.css */
 
-/* Universal box-sizing rule */
-*,
-*::before,
+/* Universal box-sizing rule - DUHET TË JETË NË FILLIM */
+* {
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
 *::after {
   box-sizing: border-box;
 }
 
-/* normalize.css v8.0.1 | MIT License */
-
+/* Rest of normalize.css */
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
