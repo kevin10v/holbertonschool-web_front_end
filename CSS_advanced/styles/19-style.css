@@ -352,7 +352,7 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-.row {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
