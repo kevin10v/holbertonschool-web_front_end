@@ -374,7 +374,7 @@ a:active {
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: 2rem;
+  height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -516,5 +516,3 @@ ul.row {
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
 }
-
-/* Task 29: Styling and custom properties for the nav */
